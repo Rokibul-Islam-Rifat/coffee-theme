@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header part start */
+
+.header {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.header::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(64, 60, 68, 0.1), rgb(64, 60, 68));
+    top: 0;
+    left: 0;
+}
+
+
+/*  */
+
+.navbar-brand {
+    position: relative;
+    z-index: 100;
+}
+
+.menu-style {
+    position: relative;
+    z-index: 100;
+    margin-top: 6px;
+}
+
+.menu-style li a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+.navbar-light .navbar-toggler {
+    position: relative;
+    z-index: 100;
+    border: 0;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background: none;
+    color: #fff;
+    padding: 0;
+}
+
+.menu {
+    position: relative;
+    z-index: 100;
+}
+
+.menu ul li a {
+    color: #ffffff!important;
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* navbar part end */
+
+
+/* banner part start */
+
+.banner {
+    padding: 90px 0;
+}
+
+.banner,
+.banner button {
+    position: relative;
+    z-index: 100;
+    color: #ffffff;
+}
+
+.banner h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.banner h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.btn-custom {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background: #30788b;
+    padding: 24px 80px;
+    color: #ffffff!important;
+    text-transform: uppercase;
+}
+
+
+/* banner part end */
+
+
+/* header part end */
+
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
