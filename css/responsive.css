@@ -29,6 +29,55 @@
             padding: 13px 51px;
         }
         /* header part end */
+        /* about part strat */
+        .about {
+            padding: 30px 0;
+        }
+        /* about part end */
+        /* application part start */
+        .application {
+            padding-top: 0;
+        }
+        .app-content h5 {
+            font-size: 17px;
+        }
+        .app-content {
+            padding: 33px 0 5px 0;
+        }
+        .app-content h5::after {
+            width: 36%;
+            top: 10%;
+            left: 23%;
+        }
+        .app-content p {
+            font-size: 12px;
+        }
+        /* application part end */
+        /* testimonial part start */
+        .slider img {
+            width: 40%;
+        }
+        .slider-content p {
+            font-size: 16px;
+        }
+        /* testimonial part end */
+        /* location part start */
+        .map iframe {
+            width: 250px;
+        }
+        .location {
+            padding: 22px 0 54px 0;
+        }
+        .map-content h3 {
+            font-size: 20px;
+        }
+        .number span {
+            padding: 0px 5px;
+            color: #ffffff;
+            background: #2497b6;
+            border-radius: 4px;
+        }
+        /* location part end */
     }
     /*  Extra small devices (portrait phones, less than 576px) */
     
@@ -76,10 +125,29 @@
         }
         /* header part end */
         /* about part start */
+        .about {
+            padding: 40px 0;
+        }
         .icon-content h5::after {
             top: 68%;
         }
         /* about part end */
+        /* application part start */
+        .app-content {
+            padding: 0px 0 10px 0;
+        }
+        .app-content h5::after {
+            top: 7%;
+        }
+        .applition-img img {
+            width: 0;
+        }
+        /* application part end */
+        /* location part start */
+        .location {
+            padding: 40px 0 70px 0;
+        }
+        /* location part end */
     }
     /*  Medium devices (tablets, 768px and up) */
     
@@ -104,11 +172,30 @@
         }
         /* header part end */
         /* about part start */
+        .about {
+            padding: 40px 0;
+        }
         .icon-content h5::after {
             width: 19%;
             top: 68%;
         }
         /* about part end */
+        /* application part start */
+        .app-content {
+            padding: 0px 0 10px 0;
+        }
+        .app-content h5::after {
+            top: 8%;
+        }
+        .applition-img img {
+            width: 0;
+        }
+        /* application part end */
+        /* location part start */
+        .location {
+            padding: 40px 0 70px 0;
+        }
+        /* location part end */
     }
     /* Large devices (desktops, 992px and up) */
     
@@ -132,6 +219,15 @@
             padding: 13px 51px;
         }
         /* header part end */
+        /* application part start */
+        .app-content {
+            position: relative;
+            padding: 70px 0 -1px 0;
+        }
+        .map iframe {
+            width: 390px;
+        }
+        /* application part end */
     }
     /* Extra large devices (large desktops, 1200px and up) */
     
