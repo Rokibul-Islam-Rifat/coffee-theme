@@ -283,5 +283,76 @@ html {
 /* testimonial part end */
 
 
+/* location part start */
+
+.location {
+    padding: 100px 0 200px 0;
+    background: #ffffff;
+}
+
+.location h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+}
+
+.map {
+    padding: 20px;
+    background: #f7f7f7;
+    box-shadow: 1px 8px 7px;
+}
+
+.map-content {
+    padding: 0 20px;
+}
+
+.map-content h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2497b6;
+}
+
+.number span {
+    padding: 0px 8px;
+    color: #ffffff;
+    background: #2497b6;
+    border-radius: 4px;
+}
+
+.killomiter {
+    text-align: right;
+}
+
+.map-content p {
+    font-size: 16px;
+    color: #99a3b1;
+    padding: 0 7%;
+}
+
+
+/* location part end */
+
+
+/* footer part start */
+
+.footer {
+    padding: 40px 0;
+    background: #f7f7f7;
+    font-size: 14px;
+    color: #000000;
+}
+
+.footer span {
+    color: #8b8b8b;
+}
+
+
+/* footer part end */
+
+
 /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
