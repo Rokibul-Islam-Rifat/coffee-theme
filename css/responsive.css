@@ -36,7 +36,7 @@
         /* about part end */
         /* application part start */
         .application {
-            padding-top: 0;
+            padding-top: 50px;
         }
         .app-content h5 {
             font-size: 17px;
@@ -44,13 +44,20 @@
         .app-content {
             padding: 33px 0 5px 0;
         }
-        .app-content h5::after {
-            width: 36%;
-            top: 10%;
-            left: 23%;
-        }
         .app-content p {
             font-size: 12px;
+        }
+        .app-content {
+            padding: 0px 0 10px 0;
+            text-align: center;
+        }
+        .app-content img {
+            padding-top: 6%;
+        }
+        .app-content h3::after {
+            width: 80%;
+            top: 9%;
+            left: 50%;
         }
         /* application part end */
         /* testimonial part start */
@@ -62,9 +69,6 @@
         }
         /* testimonial part end */
         /* location part start */
-        .map iframe {
-            width: 250px;
-        }
         .location {
             padding: 22px 0 54px 0;
         }
@@ -77,30 +81,13 @@
             background: #2497b6;
             border-radius: 4px;
         }
+        .pbt {
+            text-align: center;
+        }
+        .klm {
+            text-align: center;
+        }
         /* location part end */
-    }
-    /*  Extra small devices (portrait phones, less than 576px) */
-    
-    @media (min-width: 521px) and (max-width: 575.98px) {
-        /* header part start */
-        .banner {
-            padding: 0;
-        }
-        .img-fluid {
-            max-width: 70%;
-            height: auto;
-        }
-        .banner h3 {
-            font-size: 25px;
-        }
-        .banner h2 {
-            font-size: 70px;
-        }
-        .btn-custom {
-            font-size: 13px;
-            padding: 13px 51px;
-        }
-        /* header part end */
     }
     /*  Small devices (landscape phones, 576px and up) */
     
@@ -135,12 +122,18 @@
         /* application part start */
         .app-content {
             padding: 0px 0 10px 0;
+            text-align: center;
         }
-        .app-content h5::after {
+        .app-content img {
+            padding-top: 6%;
+        }
+        .app-content h3::after {
+            width: 55%;
             top: 7%;
+            left: 50%;
         }
         .applition-img img {
-            width: 0;
+            padding-top: 10%;
         }
         /* application part end */
         /* location part start */
@@ -156,6 +149,9 @@
         .banner {
             padding: 0;
         }
+        .navbar-brand img {
+            width: 55%;
+        }
         .img-fluid {
             max-width: 70%;
             height: auto;
@@ -164,7 +160,7 @@
             font-size: 25px;
         }
         .banner h2 {
-            font-size: 70px;
+            font-size: 65px;
         }
         .btn-custom {
             font-size: 13px;
@@ -183,12 +179,18 @@
         /* application part start */
         .app-content {
             padding: 0px 0 10px 0;
+            text-align: center;
         }
-        .app-content h5::after {
-            top: 8%;
+        .app-content img {
+            padding-top: 6%;
+        }
+        .app-content h3::after {
+            width: 55%;
+            top: 7%;
+            left: 50%;
         }
         .applition-img img {
-            width: 0;
+            padding-top: 10%;
         }
         /* application part end */
         /* location part start */
@@ -220,12 +222,19 @@
         }
         /* header part end */
         /* application part start */
-        .app-content {
-            position: relative;
-            padding: 70px 0 -1px 0;
+        .app-content h3 {
+            font-size: 17px;
         }
-        .map iframe {
-            width: 390px;
+        .app-content h3::after {
+            width: 24%;
+            top: 8%;
+            left: 14%;
+        }
+        .app-content p {
+            font-size: 13px;
+        }
+        .app-content {
+            padding: 0;
         }
         /* application part end */
     }

@@ -37,6 +37,10 @@ html {
     z-index: 100;
 }
 
+.navbar-brand img {
+    width: 65%;
+}
+
 .menu-style {
     position: relative;
     z-index: 100;
@@ -86,7 +90,7 @@ html {
 /* banner part start */
 
 .banner {
-    padding: 90px 0;
+    padding: 80px 0;
 }
 
 .banner,
@@ -181,10 +185,10 @@ html {
 }
 
 .app-content {
-    padding: 70px 0 258px 0;
+    padding: 70px 0;
 }
 
-.app-content h5 {
+.app-content h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -193,25 +197,21 @@ html {
     padding-bottom: 20px;
 }
 
-.app-content h5::after {
+.app-content h3::after {
     position: absolute;
     content: '';
     width: 20%;
     height: 1px;
     background: #f57365;
     transform: translateX(-50%);
-    top: 13%;
-    left: 13%;
+    top: 15%;
+    left: 12%;
 }
 
 .app-content p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #000000;
-}
-
-.applition-img img {
-    position: absolute;
 }
 
 
@@ -225,23 +225,10 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
     padding: 80px 0;
 }
 
-.testimonial:after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: rgba(23, 48, 54, 0.5);
-    top: 0;
-    left: 0;
-}
-
 .slider {
-    position: relative;
-    z-index: 100;
     color: #ffffff;
 }
 
@@ -305,32 +292,60 @@ html {
     box-shadow: 1px 8px 7px;
 }
 
+
+/* it's for map css */
+
+#googlemaps-canvas img.text-marker {
+    max-width: none!important;
+    background: none!important;
+}
+
+img {
+    max-width: none
+}
+
+
+/* it's for map css */
+
 .map-content {
     padding: 0 20px;
 }
 
-.map-content h3 {
+.add-name h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #2497b6;
 }
 
-.number span {
-    padding: 0px 8px;
+.add-name p {
+    font-size: 14px;
+    color: #99a3b1;
+}
+
+.num p {
+    padding: 0 5px;
     color: #ffffff;
     background: #2497b6;
     border-radius: 4px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
-.killomiter {
+.klm {
     text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #2497b6;
 }
 
-.map-content p {
-    font-size: 16px;
-    color: #99a3b1;
-    padding: 0 7%;
+.bdr {
+    border-bottom: 1px solid#748386;
+}
+
+.pbt {
+    padding: 20px 0;
 }
 
 
